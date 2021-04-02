@@ -17,66 +17,82 @@ const App = () => {
   useEffect(() => {
     hoverRef1.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef1.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef2.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef2.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef3.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef3.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef4.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef4.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef5.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef5.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef6.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef6.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef7.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef7.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
     hoverRef8.current.addEventListener("mouseenter", (event) => {
       event.target.classList.add("gravitate");
+      event.target.setAttribute("fill", "orange");
     });
     hoverRef8.current.addEventListener("mouseleave", (event) => {
       setTimeout(() => {
         event.target.classList.remove("gravitate");
+        event.target.setAttribute("fill", "#114EA8")
       }, ANIMATE_DELAY);
     });
   }, []);
